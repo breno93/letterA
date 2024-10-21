@@ -2,10 +2,10 @@ function checkLetterA(string) {
 
   const stringLower = string.toLowerCase();
 
-  const quantidade = (stringLower.match(/a/g) || []).length;
+  const amount = (stringLower.match(/a/g) || []).length;
 
-  if (quantidade > 0) {
-    console.log(`A letra 'a' foi encontrada ${quantidade} vez(es) na string.`);
+  if (amount > 0) {
+    console.log(`A letra 'a' foi encontrada ${amount} vez(es) na string.`);
   } else {
     console.log("A letra 'a' não foi encontrada na string.");
   }
